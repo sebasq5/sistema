@@ -99,6 +99,6 @@ Para más información detallada sobre **AcuSystem**, puedes revisar el siguient
 
 ## **Contacto**
 
-Para consultas o soporte, por favor contacta a [tu_email@ejemplo.com](mailto:sebasanmartin456@gmail.com).
+Para consultas o soporte, por favor contacta a [correo](mailto:sebasanmartin456@gmail.com).
 
 ---
