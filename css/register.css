@@ -1,0 +1,139 @@
+/* General body styles */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f4f4f4;
+}
+
+/* Container styles */
+.container {
+    display: flex;
+    width: 90%;
+    max-width: 1200px;
+    height: 90vh;
+    background-color: #ffffff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+/* Register box styles */
+.register-box {
+    flex: 1;
+    padding: 60px 40px; /* Más espacio interno */
+    background-color: #6b3a1e; /* Brown color */
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.register-box h1 {
+    margin-bottom: 30px; /* Más espacio entre el título y el formulario */
+    font-size: 2.8rem;
+}
+
+.register-box p {
+    margin-bottom: 30px;
+    font-size: 1.2rem;
+}
+
+.register-box a {
+    color: #ffd700; /* Gold color for link */
+    text-decoration: none;
+}
+
+.register-box a:hover {
+    text-decoration: underline;
+}
+
+/* Input group styles */
+.input-group {
+    width: 100%;
+    margin-bottom: 25px; /* Más espacio entre los campos */
+}
+
+.input-group label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+    font-size: 1rem;
+}
+
+.input-group input {
+    width: 100%;
+    padding: 15px;
+    border: none;
+    border-radius: 6px;
+    font-size: 1.1rem;
+    background-color: #fff;
+    color: #333;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Button styles */
+.btn {
+    background-color: #5a2c1b; /* Darker brown */
+    color: white;
+    border: none;
+    padding: 15px 30px;
+    border-radius: 6px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    width: 100%; /* Botón ocupa todo el ancho */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+.btn:hover {
+    background-color: #4b2315; /* Even darker brown */
+    transform: scale(1.05);
+}
+
+/* Image box styles */
+.image-box {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffffff;
+    padding: 20px; /* Agregar espacio interno para la imagen */
+}
+
+.image-box img {
+    max-width: 100%;
+    max-height: 80%;
+    height: auto;
+    object-fit: contain;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column; /* Coloca la imagen arriba y el formulario abajo */
+        height: auto;
+    }
+
+    .register-box {
+        padding: 40px;
+        align-items: center;
+    }
+
+    .register-box h1 {
+        text-align: center;
+    }
+
+    .register-box p {
+        text-align: center;
+    }
+
+    .btn {
+        width: auto; /* Botón más pequeño en pantallas pequeñas */
+    }
+}

@@ -1,0 +1,143 @@
+/* Estilos generales existentes */
+body {
+    display: flex;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.sidebar {
+    width: 250px;
+    background-color: #6b3a1e;
+    color: white;
+    height: 100vh;
+    padding: 20px;
+    box-sizing: border-box;
+    position: fixed;
+}
+
+.sidebar h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.sidebar ul {
+    list-style: none;
+    padding: 0;
+}
+
+.sidebar ul li {
+    margin: 20px 0;
+}
+
+.sidebar ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.sidebar ul li a:hover {
+    text-decoration: underline;
+}
+
+.content {
+    margin-left: 250px;
+    padding: 20px;
+    background-color: #f9f9f9;
+    width: calc(100% - 250px);
+    box-sizing: border-box;
+}
+
+.section {
+    margin-bottom: 30px;
+    display: none;
+}
+
+.section.active {
+    display: block;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+table th, table td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+}
+
+table th {
+    background-color: #6b3a1e;
+    color: white;
+}
+
+button {
+    background-color: #6b3a1e;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 14px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+button:hover {
+    background-color: #4e2c15;
+}
+
+/* Imagen en la tabla */
+img {
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+/* Botones de acción (Editar y Eliminar) */
+.btn {
+    padding: 8px 15px;
+    margin: 0 5px;
+    font-size: 14px;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 5px;
+    text-align: center;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    cursor: pointer;
+}
+
+.btn-edit {
+    color: white;
+    background-color: #FF8C00;
+    border: 1px solid #FF8C00;
+}
+
+.btn-edit:hover {
+    background-color: #FF7043;
+    border: 1px solid #FF7043;
+}
+
+.btn-delete {
+    color: white;
+    background-color: #DC143C;
+    border: 1px solid #DC143C;
+}
+
+.btn-delete:hover {
+    background-color: #FF4500;
+    border: 1px solid #FF4500;
+}
+
+
+/* Ocultar secciones por defecto */
+.seccion-oculta {
+    display: none;
+}
+
+/* Mostrar la sección activa */
+.seccion-activa {
+    display: block;
+}

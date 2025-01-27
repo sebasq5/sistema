@@ -1,0 +1,157 @@
+/* General */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    overflow: hidden; /* Evitar scroll innecesario */
+}
+
+/* Header */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #6b3a1e;
+    color: white;
+    padding: 10px 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); /* Sombra para destacar el header */
+}
+
+header .logo {
+    display: flex;
+    align-items: center;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+header .logo img {
+    height: 40px;
+    margin-right: 10px;
+}
+
+.menu {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    margin: 0;
+    padding: 0;
+}
+
+.menu li {
+    display: inline;
+}
+
+.menu a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+.menu a.active, .menu a:hover {
+    color: #ffd700;
+}
+
+/* Main Container */
+.container {
+    display: flex;
+    margin: 20px auto; /* Espaciado entre header y contenido */
+    max-width: 1200px;
+    gap: 20px;
+    height: calc(100vh - 140px); /* Ajustar altura menos el header y margen */
+    align-items: flex-start; /* Alinear contenido al inicio */
+}
+
+/* Imagen */
+.image-box {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    height: 100%; /* Ocupa todo el espacio vertical */
+}
+
+.image-box-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* La imagen se ajusta al contenedor */
+    border-radius: 8px; /* Bordes redondeados */
+}
+
+/* Formulario */
+.form-box {
+    flex: 1;
+    padding: 20px;
+    background-color: #6b3a1e;
+    color: white;
+    border-radius: 8px;
+    height: auto; /* Ajustar al contenido */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2); /* Sombra para destacar el formulario */
+}
+
+.form-box h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 1.8rem; /* Reducir el tamaño del título */
+}
+
+.form-box .highlight {
+    color: #ffd700;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+form .form-row {
+    display: flex;
+    gap: 10px;
+}
+
+form .form-group {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+form label {
+    font-weight: bold;
+    font-size: 0.9rem; /* Reducir el tamaño del texto */
+}
+
+form input, form textarea {
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    font-size: 0.9rem; /* Reducir el tamaño del texto */
+}
+
+form textarea {
+    resize: none;
+    height: 80px;
+}
+
+.animated-btn {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    font-size: 1rem; /* Reducir el tamaño del texto */
+    font-weight: bold;
+    color: #6b3a1e;
+    background-color: #ffd700;
+    cursor: pointer;
+    transition: transform 0.3s, background-color 0.3s;
+    align-self: center; /* Centrar el botón */
+}
+
+.animated-btn:hover {
+    transform: scale(1.05); /* Animación de zoom */
+    background-color: #e6c300; /* Color dorado más oscuro */
+}

@@ -1,0 +1,119 @@
+/* General body styles */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    height: 100vh; /* Full height */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f4f4f4;
+    overflow-y: auto; /* Enable vertical scrolling */
+}
+
+/* Container styles */
+.register-container {
+    display: flex;
+    width: 100vw;
+    min-height: 100vh; /* Allow content to expand and enable scrolling */
+    background-color: #ffffff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Register box styles */
+.register-box {
+    flex: 1;
+    padding: 40px;
+    background-color: #6b3a1e; /* Brown color */
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.register-box h1 {
+    margin: 0 0 20px;
+    font-size: 2.5rem;
+}
+
+.register-box p {
+    margin: 0 0 20px;
+    font-size: 1.2rem;
+}
+
+.register-box a {
+    color: #ffd700; /* Gold color for link */
+    text-decoration: none;
+}
+
+.register-box a:hover {
+    text-decoration: underline;
+}
+
+.input-group {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.input-group label {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.input-group input {
+    width: 100%;
+    padding: 15px;
+    border: none;
+    border-radius: 6px;
+    font-size: 1.2rem;
+}
+
+.btn {
+    background-color: #5a2c1b; /* Darker brown */
+    color: white;
+    border: none;
+    padding: 15px 30px;
+    border-radius: 6px;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: #4b2315; /* Even darker brown */
+}
+
+/* Image box styles */
+.image-box {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffffff;
+}
+
+.image-box img {
+    max-width: 80%;
+    height: auto;
+}
+
+/* Responsive styles for smaller screens */
+@media (max-width: 768px) {
+    .register-container {
+        flex-direction: column;
+    }
+
+    .image-box {
+        margin-bottom: 20px;
+    }
+
+    .register-box {
+        align-items: center;
+        text-align: center;
+    }
+
+    .image-box img {
+        max-width: 60%;
+    }
+}

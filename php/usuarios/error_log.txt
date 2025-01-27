@@ -1,0 +1,106 @@
+[26-Jan-2025 06:28:32 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'usuario_id' in 'where clause' in C:\xampp\htdocs\PROYECTO_GRADO\php\usuarios\generar_factura.php:150
+Stack trace:
+#0 C:\xampp\htdocs\PROYECTO_GRADO\php\usuarios\generar_factura.php(150): mysqli->prepare('SELECT id FROM ...')
+#1 {main}
+  thrown in C:\xampp\htdocs\PROYECTO_GRADO\php\usuarios\generar_factura.php on line 150
+[26-Jan-2025 06:32:07 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'usuario_id' in 'where clause' in C:\xampp\htdocs\PROYECTO_GRADO\php\usuarios\generar_factura.php:150
+Stack trace:
+#0 C:\xampp\htdocs\PROYECTO_GRADO\php\usuarios\generar_factura.php(150): mysqli->prepare('SELECT id FROM ...')
+#1 {main}
+  thrown in C:\xampp\htdocs\PROYECTO_GRADO\php\usuarios\generar_factura.php on line 150
+[26-Jan-2025 06:35:51 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'id' in 'field list' in C:\xampp\htdocs\PROYECTO_GRADO\php\usuarios\generar_factura.php:150
+Stack trace:
+#0 C:\xampp\htdocs\PROYECTO_GRADO\php\usuarios\generar_factura.php(150): mysqli->prepare('SELECT id FROM ...')
+#1 {main}
+  thrown in C:\xampp\htdocs\PROYECTO_GRADO\php\usuarios\generar_factura.php on line 150
+[26-Jan-2025 06:45:11 Europe/Berlin] PHP Fatal error:  Uncaught Exception: FPDF error: Some data has already been output, can't send PDF file in C:\xampp\htdocs\PROYECTO_GRADO\fpdf\fpdf.php:267
+Stack trace:
+#0 C:\xampp\htdocs\PROYECTO_GRADO\fpdf\fpdf.php(1058): FPDF->Error('Some data has a...')
+#1 C:\xampp\htdocs\PROYECTO_GRADO\fpdf\fpdf.php(1017): FPDF->_checkoutput()
+#2 C:\xampp\htdocs\PROYECTO_GRADO\php\usuarios\generar_factura.php(403): FPDF->Output('D', 'factura_9_26012...')
+#3 {main}
+  thrown in C:\xampp\htdocs\PROYECTO_GRADO\fpdf\fpdf.php on line 267
+[26-Jan-2025 06:48:33 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'id' in 'field list' in C:\xampp\htdocs\PROYECTO_GRADO\php\usuarios\generar_factura.php:160
+Stack trace:
+#0 C:\xampp\htdocs\PROYECTO_GRADO\php\usuarios\generar_factura.php(160): mysqli->prepare('SELECT id FROM ...')
+#1 {main}
+  thrown in C:\xampp\htdocs\PROYECTO_GRADO\php\usuarios\generar_factura.php on line 160
+[26-Jan-2025 06:48:39 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'id' in 'field list' in C:\xampp\htdocs\PROYECTO_GRADO\php\usuarios\generar_factura.php:160
+Stack trace:
+#0 C:\xampp\htdocs\PROYECTO_GRADO\php\usuarios\generar_factura.php(160): mysqli->prepare('SELECT id FROM ...')
+#1 {main}
+  thrown in C:\xampp\htdocs\PROYECTO_GRADO\php\usuarios\generar_factura.php on line 160
+[26-Jan-2025 06:50:42 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'id' in 'field list' in C:\xampp\htdocs\PROYECTO_GRADO\php\usuarios\generar_factura.php:156
+Stack trace:
+#0 C:\xampp\htdocs\PROYECTO_GRADO\php\usuarios\generar_factura.php(156): mysqli->prepare('SELECT id FROM ...')
+#1 {main}
+  thrown in C:\xampp\htdocs\PROYECTO_GRADO\php\usuarios\generar_factura.php on line 156
+[26-Jan-2025 07:52:35 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined function validarCedulaRuc() in C:\xampp\htdocs\PROYECTO_GRADO\php\usuarios\generar_factura.php:69
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\PROYECTO_GRADO\php\usuarios\generar_factura.php on line 69
+[26-Jan-2025 07:55:52 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`acusystem`.`datos_factura`, CONSTRAINT `fk_datosfactura_clientes` FOREIGN KEY (`usuario_id`) REFERENCES `clientes` (`usuario_id`) ON DELETE CASCADE ON UPDATE CASCADE) in C:\xampp\htdocs\PROYECTO_GRADO\php\usuarios\generar_factura.php:94
+Stack trace:
+#0 C:\xampp\htdocs\PROYECTO_GRADO\php\usuarios\generar_factura.php(94): mysqli_stmt->execute()
+#1 {main}
+  thrown in C:\xampp\htdocs\PROYECTO_GRADO\php\usuarios\generar_factura.php on line 94
+[26-Jan-2025 08:00:08 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: Duplicate entry '' for key 'ruc' in C:\xampp\htdocs\PROYECTO_GRADO\php\usuarios\generar_factura.php:64
+Stack trace:
+#0 C:\xampp\htdocs\PROYECTO_GRADO\php\usuarios\generar_factura.php(64): mysqli_stmt->execute()
+#1 {main}
+  thrown in C:\xampp\htdocs\PROYECTO_GRADO\php\usuarios\generar_factura.php on line 64
+[26-Jan-2025 08:00:46 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: Duplicate entry '' for key 'ruc' in C:\xampp\htdocs\PROYECTO_GRADO\php\usuarios\generar_factura.php:64
+Stack trace:
+#0 C:\xampp\htdocs\PROYECTO_GRADO\php\usuarios\generar_factura.php(64): mysqli_stmt->execute()
+#1 {main}
+  thrown in C:\xampp\htdocs\PROYECTO_GRADO\php\usuarios\generar_factura.php on line 64
+[26-Jan-2025 08:02:49 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: Duplicate entry '' for key 'ruc' in C:\xampp\htdocs\PROYECTO_GRADO\php\usuarios\generar_factura.php:58
+Stack trace:
+#0 C:\xampp\htdocs\PROYECTO_GRADO\php\usuarios\generar_factura.php(58): mysqli_stmt->execute()
+#1 {main}
+  thrown in C:\xampp\htdocs\PROYECTO_GRADO\php\usuarios\generar_factura.php on line 58
+[26-Jan-2025 08:04:32 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: Duplicate entry '' for key 'ruc' in C:\xampp\htdocs\PROYECTO_GRADO\php\usuarios\generar_factura.php:58
+Stack trace:
+#0 C:\xampp\htdocs\PROYECTO_GRADO\php\usuarios\generar_factura.php(58): mysqli_stmt->execute()
+#1 {main}
+  thrown in C:\xampp\htdocs\PROYECTO_GRADO\php\usuarios\generar_factura.php on line 58
+[26-Jan-2025 08:04:35 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: Duplicate entry '' for key 'ruc' in C:\xampp\htdocs\PROYECTO_GRADO\php\usuarios\generar_factura.php:58
+Stack trace:
+#0 C:\xampp\htdocs\PROYECTO_GRADO\php\usuarios\generar_factura.php(58): mysqli_stmt->execute()
+#1 {main}
+  thrown in C:\xampp\htdocs\PROYECTO_GRADO\php\usuarios\generar_factura.php on line 58
+[26-Jan-2025 08:06:21 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: Duplicate entry '' for key 'ruc' in C:\xampp\htdocs\PROYECTO_GRADO\php\usuarios\generar_factura.php:58
+Stack trace:
+#0 C:\xampp\htdocs\PROYECTO_GRADO\php\usuarios\generar_factura.php(58): mysqli_stmt->execute()
+#1 {main}
+  thrown in C:\xampp\htdocs\PROYECTO_GRADO\php\usuarios\generar_factura.php on line 58
+[26-Jan-2025 08:07:19 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: Duplicate entry '' for key 'ruc' in C:\xampp\htdocs\PROYECTO_GRADO\php\usuarios\generar_factura.php:58
+Stack trace:
+#0 C:\xampp\htdocs\PROYECTO_GRADO\php\usuarios\generar_factura.php(58): mysqli_stmt->execute()
+#1 {main}
+  thrown in C:\xampp\htdocs\PROYECTO_GRADO\php\usuarios\generar_factura.php on line 58
+[26-Jan-2025 08:08:34 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: Duplicate entry '' for key 'ruc' in C:\xampp\htdocs\PROYECTO_GRADO\php\usuarios\generar_factura.php:48
+Stack trace:
+#0 C:\xampp\htdocs\PROYECTO_GRADO\php\usuarios\generar_factura.php(48): mysqli_stmt->execute()
+#1 {main}
+  thrown in C:\xampp\htdocs\PROYECTO_GRADO\php\usuarios\generar_factura.php on line 48
+[26-Jan-2025 08:09:16 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: Duplicate entry '' for key 'ruc' in C:\xampp\htdocs\PROYECTO_GRADO\php\usuarios\generar_factura.php:48
+Stack trace:
+#0 C:\xampp\htdocs\PROYECTO_GRADO\php\usuarios\generar_factura.php(48): mysqli_stmt->execute()
+#1 {main}
+  thrown in C:\xampp\htdocs\PROYECTO_GRADO\php\usuarios\generar_factura.php on line 48
+[26-Jan-2025 08:15:17 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: Duplicate entry '' for key 'ruc' in C:\xampp\htdocs\PROYECTO_GRADO\php\usuarios\generar_factura.php:48
+Stack trace:
+#0 C:\xampp\htdocs\PROYECTO_GRADO\php\usuarios\generar_factura.php(48): mysqli_stmt->execute()
+#1 {main}
+  thrown in C:\xampp\htdocs\PROYECTO_GRADO\php\usuarios\generar_factura.php on line 48
+[27-Jan-2025 08:01:29 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'precio_unitario' in 'field list' in C:\xampp\htdocs\PROYECTO_GRADO\php\usuarios\generar_factura.php:286
+Stack trace:
+#0 C:\xampp\htdocs\PROYECTO_GRADO\php\usuarios\generar_factura.php(286): mysqli->prepare('SELECT plato, c...')
+#1 {main}
+  thrown in C:\xampp\htdocs\PROYECTO_GRADO\php\usuarios\generar_factura.php on line 286
+[27-Jan-2025 08:03:49 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'precio_unitario' in 'field list' in C:\xampp\htdocs\PROYECTO_GRADO\php\usuarios\generar_factura.php:286
+Stack trace:
+#0 C:\xampp\htdocs\PROYECTO_GRADO\php\usuarios\generar_factura.php(286): mysqli->prepare('SELECT plato, c...')
+#1 {main}
+  thrown in C:\xampp\htdocs\PROYECTO_GRADO\php\usuarios\generar_factura.php on line 286
